@@ -1,0 +1,6 @@
+{
+  "name": "fleet",
+  "version": "1.0.0",
+  "description": "AWS services monitor and interaction plugin for Claude Code",
+  "mcpServers": "./mcp-servers.json"
+}

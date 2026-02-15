@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fleet": {
+      "command": "npx",
+      "args": ["-y", "fleet-claude-plugin", "mcp"]
+    }
+  }
+}
