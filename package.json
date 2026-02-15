@@ -1,0 +1,40 @@
+{
+  "name": "fleet-claude-plugin",
+  "version": "1.0.0",
+  "description": "AWS services monitor and interaction plugin for Claude Code",
+  "type": "module",
+  "bin": {
+    "fleet-claude": "./bin/fleet-claude.js"
+  },
+  "scripts": {
+    "start": "node bin/fleet-claude.js mcp",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "plugin",
+    "aws",
+    "ec2",
+    "s3",
+    "lambda",
+    "cloudwatch",
+    "ecs",
+    "cloudformation",
+    "mcp"
+  ],
+  "author": "Fingerskier",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@aws-sdk/client-sts": "^3.700.0",
+    "@aws-sdk/client-ec2": "^3.700.0",
+    "@aws-sdk/client-s3": "^3.700.0",
+    "@aws-sdk/client-cloudwatch": "^3.700.0",
+    "@aws-sdk/client-cloudwatch-logs": "^3.700.0",
+    "@aws-sdk/client-lambda": "^3.700.0",
+    "@aws-sdk/client-ecs": "^3.700.0",
+    "@aws-sdk/client-cloudformation": "^3.700.0",
+    "zod": "^3.24.0"
+  }
+}
